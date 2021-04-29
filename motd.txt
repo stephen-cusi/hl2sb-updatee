@@ -32,8 +32,8 @@ a:hover {
 </head>
 <body scroll="no">
 <pre>
-You are playing Half-Life 2 Sandbox
-Visit the official Half-Life 2 Sandbox web site @ www.andrewmcwatters.com/hl2sb
+You are playing Half-Life 2 Sandbox Update
+Visit https://github.com/realwillgames/hl2sb-update for help, commits, and more.
 </pre>
 </body>
 </html>
