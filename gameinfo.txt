@@ -7,6 +7,7 @@
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1
+	vr_support 0
 	hidden_maps
 	{
 		"test_speakers"		1
