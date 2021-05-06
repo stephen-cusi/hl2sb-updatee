@@ -8,13 +8,8 @@
 	nohimodel 1
 	nocrosshair 1
 	vr_support 0
-	hidden_maps
-	{
-		"test_speakers"		1
-		"test_hardware"		1
-	}
-	developer "Planimeter"
-	developer_url "https://github.com/Planimeter/hl2sb"
+	developer "Planimeter and Willgames"
+	developer_url "https://github.com/realwillgames/hl2sb-update"
 	manual "https://github.com/Planimeter/hl2sb"
 
 
