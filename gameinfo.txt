@@ -20,12 +20,6 @@
 	FileSystem
 	{
 		SteamAppId				218		// GCF for Source SDK Base 2007
-		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
-
-		//Orange box sdk allows an extra appid to be defined here to mount additional content. 320 is HL2MP
-		AdditionalContentId			320
-		
-
 		SearchPaths
 		{
 			game+mod 			hl2sb
@@ -41,7 +35,7 @@
 			game+game_write			hl2sb
 			gamebin				hl2sb/bin
 			game				|all_source_engine_paths|hl2
-			game+download	hl2sb/download
+			platform			|all_source_engine_paths|platform
 		}
 	}
 }
