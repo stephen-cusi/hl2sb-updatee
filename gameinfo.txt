@@ -1,19 +1,15 @@
 "GameInfo"
 {
-	game	"Half-Life 2: Sandbox"
+	game	"Half-Life 2: Sandbox Update"
 	icon	"icon_hl2"
 	title	"HALF+LIFE'"
-	title2	"sandbox"
+	title2	"sandbox update"
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1
-	hidden_maps
-	{
-		"test_speakers"		1
-		"test_hardware"		1
-	}
-	developer "Planimeter"
-	developer_url "https://github.com/Planimeter/hl2sb"
+	vr_support 0
+	developer "Planimeter and Willgames"
+	developer_url "https://github.com/realwillgames/hl2sb-update"
 	manual "https://github.com/Planimeter/hl2sb"
 
 
