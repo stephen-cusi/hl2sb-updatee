@@ -26,11 +26,23 @@
 		AdditionalContentId			320
 		
 
-		SearchPaths
+SearchPaths
 		{
-			Game				|gameinfo_path|.
-			Game				|all_source_engine_paths|hl2mp
-			Game				|all_source_engine_paths|hl2
+			game+mod 			hl2sb
+			game				|all_source_engine_paths|hl2/hl2_textures.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			game				|all_source_engine_paths|hl2mp/hl2mp_english.vpk
+			game				|all_source_engine_paths|hl2mp/hl2mp_pak.vpk
+			
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
+			
+			mod+mod_write+default_write_path		|gameinfo_path|.
+			game+game_write		hl2sb
+			gamebin				hl2sb/bin
+			game				|all_source_engine_paths|hl2
+			game+download	hl2sb/download
 		}
 	}
 }
