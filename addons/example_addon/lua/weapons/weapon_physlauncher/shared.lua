@@ -1,9 +1,10 @@
-SWEP.printname				= "BaseWeapon"
-SWEP.viewmodel				= "models/weapons/v_pistol.mdl"
-SWEP.playermodel			= "models/weapons/w_pistol.mdl"
+SWEP.PrintName				= "BaseWeapon"
+SWEP.ViewModel				= "models/weapons/v_pistol.mdl"
+SWEP.WorldModel				= "models/weapons/w_pistol.mdl"
 SWEP.anim_prefix			= "python"
-SWEP.bucket					= 1
-SWEP.bucket_position		= 1
+SWEP.Slot					= 1
+SWEP.SlotPos				= 1
+SWEP.ViewModelFOV 			= 100
 
 SWEP.clip_size				= 999
 SWEP.clip2_size				= -1
@@ -78,7 +79,7 @@ function SWEP:PrimaryAttack()
 
 	self:WeaponSound( 1 );
 
-	self:SendWeaponAnim( 180 );
+	--self:SendWeaponAnim( 180 );
 	pPlayer:SetAnimation( 5 );
 	ToHL2MPPlayer(pPlayer):DoAnimationEvent( 0 );
 
